@@ -11,6 +11,43 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-light1: rgb(196, 193, 193);
+  --color-light2: rgb(155, 155, 155);
+  --color-dark1: rgb(66, 66, 66);
+  --color-dark2: rgb(22, 22, 22);
+  --color-accent-light: rgb(207, 145, 216);
+  --color-accent-dark: rgb(96, 68, 101);
+
+  --font1: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font2: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font3: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.gallery-card{
+  border: 0px solid hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  background-color: var(--color-dark1)
+}
+.gallery-card .gallery-card-image{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.gallery-card .gallery-card-title{
+  font-family: --font2;
+}
+
+.gallery-card .gallery-card.desc{
+  font-family: --font3;
+
 }
 
 a {
