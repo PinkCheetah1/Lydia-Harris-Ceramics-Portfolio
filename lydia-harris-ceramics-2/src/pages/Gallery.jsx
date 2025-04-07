@@ -9,6 +9,7 @@ function Gallery() {
         <>
         <Header></Header>
         <hr></hr>
+        <h1 className="gallery-title">Gallery</h1>
         <section className="card-list">
             {GalleryItems.map((item, index) => (
                 <GalleryCard 

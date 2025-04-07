@@ -8,11 +8,13 @@ function AboutSection() {
         // TODO Contact Me section
         // TODO Card with Lydia photo
         <section className="about-section">
-            <GalleryCard className="about-card"
-                        title="Lydia Harris"
-                        imgLink="...\assets\Lydia Harris Profile Picture.jpg"
-                        altText="Picture of Lydia Harris"
-                        desc="A Ceramics student at Brigham Young University-Idaho"/> 
+            <div>
+                <GalleryCard
+                            title="Lydia Harris"
+                            imgLink="...\assets\Lydia Harris Profile Picture.jpg"
+                            altText="Picture of Lydia Harris"
+                            desc="A Ceramics student at Brigham Young University-Idaho"/> 
+            </div>
             <section className="about-text-section">
                 <div className="about-statement">
                     <h3>Artist's Statement</h3>
