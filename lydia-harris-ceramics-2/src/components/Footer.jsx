@@ -1,4 +1,4 @@
-// import SocialMediaLink from "./SocialMediaLink"
+import SocialMediaLink from "./SocialMediaLink"
 
 function Footer(){
     return(
@@ -6,15 +6,15 @@ function Footer(){
         // TODO Basic contact info
         <footer>
             <ul>
-                {/* <li>
-                    <SocialMediaLink />
-                </li>
                 <li>
                     <SocialMediaLink />
                 </li>
                 <li>
                     <SocialMediaLink />
-                </li> */}
+                </li>
+                <li>    
+                    <SocialMediaLink />
+                </li>
             </ul>
         </footer>
     )

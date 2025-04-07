@@ -9,7 +9,11 @@ function Home() {
     return(
         <>
         <Header></Header>
+        <hr></hr>
+        <Carousel></Carousel>
+        <hr></hr>
         <AboutSection />
+        <hr></hr>
         <Footer></Footer>
         </>
     )
