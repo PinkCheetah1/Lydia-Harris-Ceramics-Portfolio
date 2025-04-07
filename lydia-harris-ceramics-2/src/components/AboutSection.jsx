@@ -1,5 +1,6 @@
 import GalleryCard from "./GalleryCard"
 import SocialMediaLink from "./SocialMediaLink"
+import "./AboutSection.css";
 
 function AboutSection() {
     return(

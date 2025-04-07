@@ -19,9 +19,51 @@ const galleryItems = [
     },
     {
         title: "Artwork 3",
+        image: "https://brokeandchic.com/wp-content/uploads/2022/10/pexels-yan-krukov-6611417-scaled.jpg",
+        alt: "Artwork 3 image",
+        description: "dyfugihokbjhduirto87yiulhkv,gcdtr"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://brokeandchic.com/wp-content/uploads/2022/10/pexels-yan-krukov-6611417-scaled.jpg",
+        alt: "Artwork 3 image",
+        description: "dyfugihokbjhduirto87yiulhkv,gcdtr"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://brokeandchic.com/wp-content/uploads/2022/10/pexels-yan-krukov-6611417-scaled.jpg",
+        alt: "Artwork 3 image",
+        description: "dyfugihokbjhduirto87yiulhkv,gcdtr"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://brokeandchic.com/wp-content/uploads/2022/10/pexels-yan-krukov-6611417-scaled.jpg",
+        alt: "Artwork 3 image",
+        description: "dyfugihokbjhduirto87yiulhkv,gcdtr"
+    },
+    {
+        title: "Artwork 3",
         image: "https://th.bing.com/th/id/R.3a0874accc0a8885558489c023a37d1b?rik=foR%2flLs%2br3HPWw&pid=ImgRaw&r=0",
         alt: "Artwork 3 image",
-        description: "hgcfxhvmjlk"
+        description: "hgcfxhvmjlk lots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of space"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://th.bing.com/th/id/R.3a0874accc0a8885558489c023a37d1b?rik=foR%2flLs%2br3HPWw&pid=ImgRaw&r=0",
+        alt: "Artwork 3 image",
+        description: "hgcfxhvmjlk lots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of space"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://th.bing.com/th/id/R.3a0874accc0a8885558489c023a37d1b?rik=foR%2flLs%2br3HPWw&pid=ImgRaw&r=0",
+        alt: "Artwork 3 image",
+        description: "hgcfxhvmjlk lots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of space"
+    },
+    {
+        title: "Artwork 3",
+        image: "https://th.bing.com/th/id/R.3a0874accc0a8885558489c023a37d1b?rik=foR%2flLs%2br3HPWw&pid=ImgRaw&r=0",
+        alt: "Artwork 3 image",
+        description: "hgcfxhvmjlk lots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of spacelots of space lots of space lots of space lots of space"
     },
     // {
     //   title: "",

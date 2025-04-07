@@ -1,4 +1,5 @@
 import SocialMediaLink from "./SocialMediaLink"
+import "./Footer.css";
 
 function Footer(){
     return(

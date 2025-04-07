@@ -1,3 +1,4 @@
+import "./Carousel.css";
 
 function Carousel() {
     return(

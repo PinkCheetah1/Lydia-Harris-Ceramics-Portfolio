@@ -1,3 +1,4 @@
+import "./SocialMediaLink.css";
 
 function SocialMediaLink({ 
     iconLink="", 
@@ -6,7 +7,7 @@ function SocialMediaLink({
     socialLink=""}) {
     return(
         <>
-            <a href={socialLink}>
+            <a href={socialLink}>   
                 <img className="icon" src={iconLink} alt={altText}></img>
                 <h3>{text}</h3>
             </a>
