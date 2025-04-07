@@ -4,10 +4,10 @@ import "./Header.css";
 function Header(){
 
     return(
-        <header>
-            <nav>
-                {/* TODO: Make letters pretty */}
-                <h1>Lydia Harris Ceramics</h1>
+        <header className='site-header'>
+            {/* TODO: Make letters pretty */}
+            <div className='header-logo'><h1>Lydia Harris Ceramics</h1></div>
+            <nav className='nav-links'>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>

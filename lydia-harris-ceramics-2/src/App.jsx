@@ -4,14 +4,14 @@ import Gallery from './pages/Gallery';
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Gallery" element={<Gallery />}/>
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@ import AboutSection from "../Components/AboutSection.jsx"
 
 function Home() {
     return(
-        <>
+        <div>
         <Header></Header>
         <hr></hr>
         <Carousel></Carousel>
@@ -15,7 +15,7 @@ function Home() {
         <AboutSection />
         <hr></hr>
         <Footer></Footer>
-        </>
+        </div>
     )
 }
 
