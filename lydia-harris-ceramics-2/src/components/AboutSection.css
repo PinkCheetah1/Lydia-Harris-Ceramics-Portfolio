@@ -1,0 +1,29 @@
+/* full section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/* right section */
+/* .about-card {
+} */
+
+/* right section */
+.about-text-section {
+    text-align: center;
+}
+
+/* .about-statement {
+}
+
+.about-social {
+} */
+
+.about-socials ul {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    list-style: none;
+    padding: 20px;
+
+}
