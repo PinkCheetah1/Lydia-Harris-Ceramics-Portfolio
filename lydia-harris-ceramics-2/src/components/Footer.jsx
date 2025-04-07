@@ -5,10 +5,10 @@ function Footer(){
     return(
         // TODO back to top button
         // TODO Basic contact info
-        <footer>
+        <footer className="footer-socials">
             <ul>
                 <li>
-                    <SocialMediaLink />
+                    <SocialMediaLink iconLink="https://1000logos.net/wp-content/uploads/2017/06/Twitter-symbol.jpg"/>
                 </li>
                 <li>
                     <SocialMediaLink />

@@ -1,0 +1,16 @@
+
+
+.footer-socials {
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px;
+    border-color: black;
+    
+}
+
+.footer-socials ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}

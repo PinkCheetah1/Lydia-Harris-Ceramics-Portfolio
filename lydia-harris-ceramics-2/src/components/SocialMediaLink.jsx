@@ -6,8 +6,8 @@ function SocialMediaLink({
     text="[No Social Media Name Available]", 
     socialLink=""}) {
     return(
-        <div className="social-link">
-            <a href={socialLink}>   
+        <div className="social-link-box">
+            <a href={socialLink} className="social-link">   
                 <img className="social-link-icon" src={iconLink} alt={altText}></img>
                 <h3 className="social-link-text">{text}</h3>
             </a>
