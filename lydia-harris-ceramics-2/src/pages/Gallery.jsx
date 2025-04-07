@@ -1,14 +1,23 @@
 import Header from "../Components/Header.jsx";
 import Footer from "../Components/Footer.jsx";
 import GalleryCard from "../Components/GalleryCard.jsx";
+import GalleryItems from "../data/GalleryItems.js";
 
 function Gallery() {
     return(
         <>
         <Header></Header>
         <hr></hr>
-        <GalleryCard title="Beautiful Pottery" desc="Something beautiful that Lydia made" imgLink="https://www.rockgardenpottery.com/wp-content/uploads/2019/04/Pottery-And-Ceramics-1024x683.jpg" altText="Some beautiful Pottery"/>
-        <GalleryCard/>
+        <section>
+            {GalleryItems.map((item, index) => (
+                <GalleryCard 
+                    title={item.title}
+                    imgLink={item.image}
+                    altText={item.alt}
+                    desc={item.description}
+                />
+            ))}
+        </section>
         <hr></hr>
         <Footer></Footer>
         </>

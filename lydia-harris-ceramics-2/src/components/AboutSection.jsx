@@ -9,6 +9,7 @@ function AboutSection() {
         <section>
             <GalleryCard 
                         title="Lydia Harris"
+                        imgLink="...\assets\Lydia Harris Profile Picture.jpg"
                         altText="Picture of Lydia Harris"
                         desc="A Ceramics student at Brigham Young University-Idaho"/> 
             <section>

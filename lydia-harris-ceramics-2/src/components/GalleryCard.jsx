@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './GalleryCard.css'
 
 function GalleryCard({ title="[No Title Available]", desc="[No Description Available]", dateTime= "[00/00/0000]", imgLink="", altText="[No Alt Text Available]" }){
     return( 
