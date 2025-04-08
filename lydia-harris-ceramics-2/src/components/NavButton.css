@@ -1,5 +1,5 @@
 .nav-button {
-    background-color: aliceblue;
-    padding: 10px;
+    background-color: var(--color-bg);
+    padding: 15px;
     border-radius: 10px;
 }

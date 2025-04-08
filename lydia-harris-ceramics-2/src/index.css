@@ -1,45 +1,23 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+:root {
+  --color-bg: #f8f8f8;
+  --color-text: #222;
+  --color-accent: #6a0dad;
+  --color-gray-light: #ddd;
+  --color-gray-dark: #333;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --font-main: 'Segoe UI', sans-serif;
+  --font-heading: 'Georgia', serif;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  --color-light1: rgb(196, 193, 193);
-  --color-light2: rgb(155, 155, 155);
-  --color-dark1: rgb(66, 66, 66);
-  --color-dark2: rgb(22, 22, 22);
-  --color-accent-light: rgb(207, 145, 216);
-  --color-accent-dark: rgb(96, 68, 101);
-
-  --font1: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --font2: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --font3: system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --spacing: 1rem;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  font-family: var(--font-main);
+  background-color: var(--color-gray-light);
+  color: var(--color-text);
+  line-height: 1.6;
 }
 
 h1 {
@@ -47,6 +25,31 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+
+a {
+  font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: inherit;
+  }
+  a:hover {
+    color: var(--color-gray-dark);
+    }
+    
+    
+    
+/* 
 button {
   border-radius: 8px;
   border: 1px solid transparent;

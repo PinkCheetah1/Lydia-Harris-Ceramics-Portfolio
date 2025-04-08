@@ -13,6 +13,8 @@
 .about-text-section {
     text-align: center;
     padding: 10px;
+    background-color: var(--color-bg);
+    /* border-radius: 15px; */
 }
 
 .about-statement h3, p {

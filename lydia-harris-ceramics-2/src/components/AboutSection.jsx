@@ -17,7 +17,7 @@ function AboutSection() {
             </div>
             <section className="about-text-section">
                 <div className="about-statement">
-                    <h3>Artist's Statement</h3>
+                    <h2>Artist's Statement</h2>
                     <p>
                         Artist statement text
                     </p>

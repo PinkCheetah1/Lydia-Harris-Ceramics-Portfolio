@@ -2,11 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem; 
+    padding: 2rem 2rem; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     width: 100%;
     margin: 0 auto;
     z-index: 10;
+    background-color: var(--color-gray-dark);
+}
+.header h1 {
+    color: var(--color-gray-light);
 }
 
 .nav-links ul {
@@ -18,7 +22,5 @@
 }
 
 .nav-links li {
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: var(--color-gray-light);  
 }

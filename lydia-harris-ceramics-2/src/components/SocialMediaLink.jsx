@@ -9,7 +9,7 @@ function SocialMediaLink({
         <div className="social-link-box">
             <a href={socialLink} className="social-link">   
                 <img className="social-link-icon" src={iconLink} alt={altText}></img>
-                <h3 className="social-link-text">{text}</h3>
+                <p className="social-link-text">{text}</p>
             </a>
         </div>
         )
