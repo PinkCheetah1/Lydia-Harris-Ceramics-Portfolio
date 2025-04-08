@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import "./Header.css";
+import NavButton from './NavButton.jsx';
 
 function Header(){
 
@@ -10,10 +11,10 @@ function Header(){
             <nav className='nav-links'>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <NavButton to="/" text='Home'></NavButton>
                     </li>
                     <li>
-                        <Link to="/Gallery">Gallery</Link>
+                        <NavButton to='/Gallery' text='Gallery'></NavButton>
                     </li>
                 </ul>
             </nav>
