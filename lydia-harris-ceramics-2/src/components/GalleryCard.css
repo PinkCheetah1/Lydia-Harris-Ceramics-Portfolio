@@ -9,17 +9,22 @@
     max-width: 300px;
     display: inline-block;
     background-color: var(--color-dark1)
-  }
-  .gallery-card .gallery-card-image{
+}
+.gallery-card .gallery-card-image{
     max-width: 100%;
     height: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  }
-  .gallery-card .gallery-card-title{
+    margin-bottom: 20px;
+}
+.gallery-card .gallery-card-title{
     font-family: --font2;
-  }
+}
   
-  .gallery-card .gallery-card.desc{
+.gallery-card .gallery-card.desc{
     font-family: --font3;
-  }
+}
+
+.gallery-card hr {
+  margin: 20px;
+}

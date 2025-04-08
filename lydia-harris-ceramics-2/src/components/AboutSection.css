@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin: 30px;
 }
 /* right section */
 /* .about-card {
@@ -11,19 +12,22 @@
 /* right section */
 .about-text-section {
     text-align: center;
+    padding: 10px;
 }
 
-/* .about-statement {
+.about-statement h3, p {
+    margin: 10px;
 }
 
 .about-social {
-} */
+    margin: 10px;
+}
 
 .about-socials ul {
     display: flex;
     flex-direction: column;
     gap:20px;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 
 }
