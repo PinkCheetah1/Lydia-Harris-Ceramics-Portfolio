@@ -4,9 +4,12 @@ This is an artist portfolio website using React. This program has two pages and 
 
 This software gave me experience with using React and styling pages with CSS. These were both new and fun skills I didn't have experience in before the project. The CSS uses primarily flexbox for the layout. 
 
-[React (no CSS) Demo Video](http://youtube.link.goes.here)
+[React (no CSS) Demo Video](https://youtu.be/UfZVN_o7uvU)
 
-[React + CSS Demo Video](http://youtube.link.goes.here)
+[React + CSS Demo Video](https://youtu.be/4WjV8VuAYvE)
+
+Note: 
+Vite broke down a few times on this project, so the whole thing had to be moved between projects a couple times. [Here](https://github.com/PinkCheetah1/LydiaHarrisCeramics) is a link to the original that has a lot of the change logs for early on in the project (doesn't run, but still has the code).
 
 # Development Environment
 
