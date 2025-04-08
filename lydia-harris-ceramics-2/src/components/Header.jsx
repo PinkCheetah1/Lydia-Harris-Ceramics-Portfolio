@@ -4,7 +4,7 @@ import "./Header.css";
 function Header(){
 
     return(
-        <header className='site-header'>
+        <header className='header'>
             {/* TODO: Make letters pretty */}
             <div className='header-logo'><h1>Lydia Harris Ceramics</h1></div>
             <nav className='nav-links'>

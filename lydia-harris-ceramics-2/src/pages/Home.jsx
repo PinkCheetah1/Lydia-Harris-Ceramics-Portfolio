@@ -9,13 +9,10 @@ import "./Home.css"
 function Home() {
     return(
         <div>
-        <Header></Header>
-        <hr></hr>
-        <Carousel></Carousel>
-        <hr></hr>
+        <Header />
+        <Carousel />
         <AboutSection />
-        <hr></hr>
-        <Footer></Footer>
+        <Footer />
         </div>
     )
 }

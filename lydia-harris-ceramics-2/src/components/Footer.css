@@ -1,14 +1,15 @@
 
 
-.footer-socials {
+.footer {
     align-items: center;
     background-color: aliceblue;
     border: 1px;
     border-color: black;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
     
 }
 
-.footer-socials ul {
+.footer-socials {
     list-style: none;
     display: flex;
     gap: 1rem;
