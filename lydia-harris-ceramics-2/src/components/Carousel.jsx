@@ -10,7 +10,7 @@ function Carousel() {
                 <img className="carousel-image" src="https://www.rockgardenpottery.com/wp-content/uploads/2019/04/Pottery-And-Ceramics-1024x683.jpg" 
                 alt="Just some random pottery">                
             </img>
-            <NavButton to="/" text="View Gallery" className="carousel-button"></NavButton>
+            <NavButton to="/Gallery" text="View Gallery" className="carousel-button"></NavButton>
             </div>
         </section>
     )
