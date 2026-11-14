@@ -12,6 +12,7 @@ function Home() {
         <Header />
         <Carousel />
         <AboutSection />
+        <Newsletter />
         <Footer />
         </div>
     )
